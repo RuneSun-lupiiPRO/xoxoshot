@@ -1,0 +1,29 @@
+class CategoryTree {
+    private Category root;
+    
+    public void insert(Category category, Category parent) {
+        if (parent == null) {
+            root = category;
+        } else {
+            parent.addChild(category);
+        }
+    }
+    
+    public Category search(String name) {
+        return search(name, root);
+    }
+    
+    private Category search(String name, Category node) {
+        if (node.getName().equals(name)) {
+            return node;
+        } else {
+            for (Category child : node.getChildren()) {
+                Category result = search(name, child);
+                if (result != null) {
+                    return result;
+                }
+            }
+            return null;
+        }
+    }
+}
