@@ -1,0 +1,15 @@
+class Category {
+    private String name;
+    private List<Category> children;
+    
+    public Category(String name) {
+        this.name = name;
+        this.children = new ArrayList<>();
+    }
+    
+    public void addChild(Category child) {
+        children.add(child);
+    }
+    
+    // getter and setter methods
+}
