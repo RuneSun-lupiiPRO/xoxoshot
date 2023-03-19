@@ -1,0 +1,16 @@
+#wiki how to    
+    Install Android Studio: Android Studio is the official Integrated Development Environment (IDE) for Android app development. You can download and install it from the official Android Studio website: https://developer.android.com/studio
+
+    Choose a programming language: Java and Kotlin are the two main programming languages used for Android app development. If you are new to Android development, it might be easier to start with Java as it has a simpler syntax. However, Kotlin is becoming increasingly popular due to its concise syntax and advanced features.
+
+    Set up your project: After installing Android Studio, create a new Android project and select the minimum SDK version that you want to support. You can choose from a variety of templates, such as "Empty Activity," "Basic Activity," "Tabbed Activity," etc.
+
+    Learn the Android SDK: The Android SDK (Software Development Kit) contains all the tools, libraries, and APIs you need to develop Android apps. It's important to have a good understanding of the SDK to be able to write efficient and reliable code. You can find the official Android SDK documentation here: https://developer.android.com/docs
+
+    Write your code: Android apps are written in Java or Kotlin using Android SDK APIs. You can use Android Studio's code editor to write your code, and the IDE will provide you with helpful suggestions and error checking.
+
+    Test your app: Once you have written some code, it's time to test your app. You can run your app on an Android emulator or a physical Android device. Android Studio provides built-in tools to help you test your app and debug any issues.
+
+    Publish your app: When you're satisfied with your app, you can publish it on the Google Play Store or other app stores. You'll need to create an account and follow the publishing guidelines for each store.
+
+Note that Android app development can be a complex and time-consuming process, but there are many resources available online to help you learn and improve your skills. Good luck with your Android app development journey!
